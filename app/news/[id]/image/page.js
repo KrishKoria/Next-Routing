@@ -8,12 +8,7 @@ export default function ImagePage({ params }) {
   }
   return (
     <div className="fullscreen-image">
-      <Image
-        src={`/images/news/${newsItem.image}`}
-        width={1024}
-        height={1024}
-        alt={newsItem.title}
-      />
+      <Image src={`/images/news/${newsItem.image}`} fill alt={newsItem.title} />
     </div>
   );
 }

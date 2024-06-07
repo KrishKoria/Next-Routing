@@ -193,3 +193,7 @@ ul {
   text-align: center;
   margin-top: 3rem;
 }
+.fullscreen-image img {
+  max-width: 100%;
+  height: auto;
+}
