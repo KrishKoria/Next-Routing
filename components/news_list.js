@@ -12,6 +12,7 @@ export function NewsList({ news }) {
               alt={newsItem.title}
               width={1024}
               height={1024}
+              priority
             />
             <span>{newsItem.title}</span>
           </Link>
